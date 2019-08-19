@@ -126,10 +126,11 @@
                         });
                 },
                 showError: function (error) {
+                console.log( cropper.$widget);
                     if (error == '') {
                         cropper.$widget.parents('.form-group').removeClass('has-error').find('.invalid-feedback').text('').hide();
                     } else {
-                        cropper.$widget.parents('.form-group').addClass('has-error').find('.invalid-feedback').text(error).show();
+                        cropper.$widget.parents('.form-group').addClass('has-error').find('.invalid-feedback').text(error).show();;
                     }
                 },
                 setProgress: function (value) {
