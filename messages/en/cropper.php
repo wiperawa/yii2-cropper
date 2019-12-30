@@ -18,7 +18,7 @@
  */
 return [
     'DEFAULT_LABEL' => 'Click and select or drag an image file here',
-    'CROP_PHOTO' => 'Crop image',
+    'CROP_PHOTO' => 'Crop and Upload image',
     'DELETE_PHOTO' => 'Delete image',
     'ERROR_CAN_NOT_UPLOAD_FILE' => 'Can`t upload file',
     'MISSING_ATTRIBUTE' => 'Attibute "{attribute}" must be specified',
